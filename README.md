@@ -19,3 +19,14 @@ id:1 means your review id number
 ![Test Image 1](web/test.jpeg)
 
 ![Test Image 1](web/test1.jpeg)
+
+
+{
+  last_product_review(id: 1) {
+    review_id
+    created_at
+    title
+    detail
+    nickname
+  }
+}
